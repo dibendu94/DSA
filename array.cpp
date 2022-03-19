@@ -3,7 +3,13 @@
 using namespace std;
 int main()
 {
-    int a[19]={1,2,3,4,5,6,7,7,5,89,65,32};
+    int a[20];
+    for (int i = 0; i < 20; i++)
+    {
+        a[i]=i;
+        cout<<a[i]<<" ";
+
+    }
     int i;
     cout<<"to check value of array input array index"<<endl;
     cin>>i;
