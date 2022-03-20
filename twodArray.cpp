@@ -15,11 +15,11 @@ int main()
         }
         
     }
-    for (int j = 0; j < 4; j++)
+    for (int l = 0; l < 4; l++)
     {
-        for (int k = 0; k < 4; k++)
+        for (int k = 0; k < 4; k++) // linear display 
         {
-             cout<<a[i][j];
+             cout<<a[l][k];
         }
 
         
